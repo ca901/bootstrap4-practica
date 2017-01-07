@@ -1,0 +1,114 @@
+html {
+  font-size: 15px; }
+
+/* bloque Bienvenido */
+#menuPrincipal {
+  clear: both; }
+
+.bienvenida {
+  background: url(../images/fondo-bienvenidos.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  /* 100vh es 100% de la pantalla del usuario*/
+  overflow: hidden; }
+
+.navbar-fixed-top {
+  background: rgba(0, 0, 0, 0.8); }
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+  -webkit-transition: all .3s ease;
+          transition: all .3s ease; }
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+  color: white; }
+
+.navbar-toggler {
+  font-size: 1.6rem;
+  color: white !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-align: center;
+  padding: .6rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover {
+  color: rgba(255, 255, 255, 0.95);
+  background: #F05F40; }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  background: #F05F40;
+  color: white; }
+
+.texto-bienvenido {
+  color: white;
+  margin-top: 9rem; }
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #b93e24;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+  text-transform: uppercase; }
+
+.btn-primary:hover, .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
+  background-color: #f17f66;
+  border-color: #b93e24; }
+
+/**** Quienes Somos****/
+.quienes-somos {
+  background-color: #F05F40;
+  color: white; }
+
+/****** Servicios **********/
+.servicios .fa {
+  color: #F05F40;
+  font-size: 6rem; }
+
+.servicios h3 {
+  font-weight: bold; }
+
+/**********Ultimos Proyectos***************/
+.ultimos-proyectos {
+  background-color: #424141;
+  color: white; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.ultimos-proyectos img {
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+  min-width: 100%; }
+
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5); }
+
+/*************Pie de pagina**************/
+footer {
+  color: white;
+  background: #222222; }
+
+footer p {
+  margin-top: 14px; }
+
+/****************QUERIES***************/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  #menuPrincipal {
+    clear: inherit; }
+
+  .bienvenida {
+    background: url(../images/fondo-bienvenido-grande.jpg) no-repeat center;
+    background-size: cover; } }
+/*# sourceMappingURL=estilos.css.map */
